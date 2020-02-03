@@ -1,5 +1,20 @@
+header {
+  color: #ffffff;
+  text-align: center;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.cuerpo {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+.texto {
+  margin: 2rem;
 }
 
 .botones {
@@ -7,8 +22,40 @@ body {
   margin-left: 3rem;
 }
 
+.pagination {
+  margin-left: 3rem;
+}
+
 .navbar {
   background-color: #000000;
+  height: 5rem;
+}
+
+.icono {
+  width: 8%;
+}
+
+.hero-section {
+  background-image: url("../img/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.foto-naomi {
+  border-radius: 60%;
+  width: 80%;
+}
+
+footer {
+  background-color: #000000;
+  text-align: center;
+  background-size: cover;
+}
+
+.logo-footer {
+  width: 20%;
 }
 
 /*# sourceMappingURL=main.css.map */
